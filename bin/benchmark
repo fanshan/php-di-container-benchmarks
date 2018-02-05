@@ -17,6 +17,7 @@ use DiContainerBenchmarks\Container\OpulenceIoc\OpulenceIocContainer;
 use DiContainerBenchmarks\Container\PhpDi\PhpDiContainer;
 use DiContainerBenchmarks\Container\PHPixieDi\PHPixieDiContainer;
 use DiContainerBenchmarks\Container\Pimple\PimpleContainer;
+use DiContainerBenchmarks\Container\ServicesFactory\ServicesFactoryContainer;
 use DiContainerBenchmarks\Container\Symfony\SymfonyContainer;
 use DiContainerBenchmarks\Container\Yaco\YacoContainer;
 use DiContainerBenchmarks\Container\Yii2\Yii2Container;
@@ -56,6 +57,7 @@ $containers = [
     new Yii2Container(),
     new ZenContainer(),
     new ZendServiceManagerContainer(),
+    new ServicesFactoryContainer()
 ];
 
 $outputGenerators = [
