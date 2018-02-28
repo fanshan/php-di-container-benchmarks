@@ -9,7 +9,7 @@ class Test3 extends AbstractServicesFactoryTest
 {
     public function startup(): void
     {
-        //$this->setContainerWithPrototypeServices();
+        $this->setContainerWithPrototypeServices();
     }
 
     public function run(): void

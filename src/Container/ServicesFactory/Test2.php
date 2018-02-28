@@ -9,7 +9,7 @@ class Test2 extends AbstractServicesFactoryTest
 {
     public function startup(): void
     {
-        //$this->setContainerWithSingletonServices();
+        $this->setContainerWithSingletonServices();
     }
 
     public function run(): void
